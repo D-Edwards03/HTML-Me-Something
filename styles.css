@@ -1,1 +1,86 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
+
+.funParagraph {
+    color: green;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #1dccef;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+.tmc-pic {
+    width: 500px;
+    height: 600px;
+}
+
+.IT-pic {
+    width: 700px;
+    height: auto;
+}
+
+.python-pic {
+    width: 700px;
+    height: auto;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.lc-pic {
+    width: 700px;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}

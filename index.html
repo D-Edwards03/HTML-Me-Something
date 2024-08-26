@@ -1,8 +1,88 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <title>From Truckin' to Tech</title> <!-- What displays in the browser tab -->
+      <link rel="stylesheet" href="styles.css"> <!-- linking css styling -->
    </head>
-   <body>
-      <!-- Write your HTML in this file! -->
+   <body> <!-- document's body -->
+      <header>
+         <h1>Where Do We Start?</h1> <!-- heading -->
+      <nav> <!-- creates navigation bar -->
+         <ul> <!-- creates an unordered list inside of the nav bar -->
+            <li>
+               <a href="#truckin">Truckin'</a> <!-- creates a link in the nav bar -->
+            </li>
+            <li>
+               <a href="#tech">Tech</a>
+            </li>
+            <li>
+               <a href="#moreAboutMe">More About ME</a>
+            </li>
+         </ul>
+      </nav>
+      </header>
+
+      <main> <!-- main content of document -->
+         <article> <!-- defines an article -->
+            <section> <!-- defines a section in the document -->
+               <a name = "truckin'"></a> <!-- hyperlink -->
+               <h2 id="mainHeading">Truckin'</h2>
+               <p> <!-- defines a paragraph -->
+                  April 2019 I joined the flatbed company TMC. I traveled out to Des Moines, IA to attain my Class A CDL, and secure a position with the company.
+                  I had no clue on what to expet. I didn't know anything about trucks, trailers, or the struggles I would encounter. My goal was to be a sponge, 
+                  and come in with the mindset that no matter what I'll return home a TMC trucker. There were many challenges I faced. My hardest challenge was 
+                  shifting. I have never driven a manual before, and struggled with the concept of double clutching. Performing backing maneuvers was the next 
+                  challenge I had to overcome. It was to a point were I tried to avoid having to back up because of my lack of confidence in my skill. Five 
+                  years later I'm working as a Driver Trainer for Ryder. I have been accident free my entire career in the industry, and I've been awarded for 
+                  being a safe driver.
+               </p>
+               <figure> <!-- specifies self contained content -->
+                  <img src="images/TMC.jpg" alt="A picture I took during training. Des Moines, IA" class="tmc-pic"> <!-- defines an image -->
+                  <figcaption> <!-- defines a caption for a figure element -->
+                     A picture I took during training. Des Moines, IA
+                  </figcaption>
+               </figure>
+            </section>
+
+            <section>
+               <a name = "tech"></a>
+               <h2>Tech</h2>
+               <p id="testP" class="funParagraph">
+                  Around the time I was preparing to attain my CDL, I was told about a program that teaches people skills to help land positions in the tech 
+                  industy. That person told me I would be a great fit, and that I would do well if I chose to make the transition. The program that was mentioned
+                  was LaunchCode. Being the person that I am I chose to stay the path of attaining my CDL. I'm the type of person that if I gave someone my word 
+                  or commitment that I would like to see it through. Although I made the decision to stay the course I always kept that thought in the back of my 
+                  mind. I got to a point in my career where I felt that I did everything that the trucking industry had to offer. I wanted to be challenged. I 
+                  wanted a lifestyle that gave me more time for my family. I started looking into what I could do while I working a hectic schedule. I stumbled 
+                  across Google's career certificate program. I completed the IT Support certificate, and started to work on the IT Automation with Python 
+                  certificate. Once my schedule aligned, I enrolled into LaunchCode's web dev program.
+               </p>
+               <div class="img-container"> <!-- defines a section -->
+                  <img src="images/Cert.png" alt="IT Support Cert" class="IT-pic">
+                  <img src="images/python.png" alt="Python Crash Course" class="python-pic">
+               </div>
+               <figure>
+                  <img src="images/LaunchCode.jpg" alt="LaunchCode's front desk" class="lc-pic">
+                  <figcaption>
+                     LaunchCode's front desk
+                     <a href="http://www.bizjournals.com/stlouis/inno/stories/news/2022/09/02/launchcode-headquarters-renovation-expansion.html">bizjournals</a>
+                  </figcaption>
+               </figure>
+            </section>
+
+            <section>
+               <a name = "moreAboutMe"></a>
+               <h2>More About Me</h2>
+               <p>
+                  I am a girl dad with two daughters that keeps me on my toes. My hobbies include gaming, traveling, and drawing. One thing I enjoy is traveling 
+                  around the country to experience different concerts and music festivals.
+               </p>
+            </section>
+         </article>
+      </main>
+
+      <footer>
+         <p>Please feel free to connect with me on <a href="http://www.linkedin.com/in/demetrius-edwards03">LinkedIn</a> for deeper dive into my story and re&#769;sume&#769;.</p>
+      </footer>
    </body>
 </html>
